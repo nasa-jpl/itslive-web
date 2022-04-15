@@ -3,6 +3,10 @@
 /assets/jsconfig.json
 hugo_stats.json
 
+# public output
+/public/
+/jpl/
+
 # Executable may be added to repository
 hugo.exe
 hugo.darwin

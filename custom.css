@@ -1,0 +1,46 @@
+/* The hero image */
+.hero-body {
+  /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.8)), url("images/arctic-bg.jpg");
+
+  /* Set a specific height */
+  height: 50%;
+
+  /* Position and center the image to scale nicely on all screens */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.hero-body img {
+  width: 400px;
+  position: relative;
+  border: 0px !important;
+  box-shadow: none !important;
+  top: 0;
+  left: 0;
+}
+
+.section p {
+  text-align: justify;
+}
+
+.section h3 {
+  text-align: justify;
+}
+
+.custom-image {
+  display: inline !important;
+  text-align: left;
+  margin: unset !important;
+}
+
+.footer-text {
+  text-indent: 3em;
+}
+
+.align-left {
+  text-align: left !important;
+}
+

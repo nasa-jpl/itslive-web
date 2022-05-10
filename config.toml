@@ -42,7 +42,7 @@ publishDir                       = "public"
         icon  = "gitter" # icon name without the 'fa-'
         icon_pack = "fab"
     [[params.social]]
-        url   = "https://github.com/orgs/nasa-jpl/teams/its_live/repositories"
+        url   = "https://github.com/orgs/nasa-jpl/"
         icon  = "github" # icon name without the 'fa-'
         icon_pack = "fab"
     [[params.social]]

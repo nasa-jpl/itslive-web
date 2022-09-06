@@ -46,7 +46,7 @@ Velocities: Version 1. Data archived at National Snow and Ice Data Center; https
 
 <p>Nilsson, J., Gardner, A., & Paolo, F. [update to time of data download]: MEaSUREs ITS_LIVE Antarctic Grounded Ice Sheet Elevation Change, Version 1,  https://doi.org/10.5067/L3LSVDZS15ZV.</p>
 
-<p> Nilsson, J., Gardner, A., & Paolo, F. (2022). Elevation Change of the Antarctic Ice Sheet: 1985 to 2020. Earth System Science Data Discussions, 2021, 1‚ 1-39. https://doi.org/10.5194/essd-2021-287.</p>
+<p> Nilsson, J., Gardner, A. S., and Paolo, F. S.: Elevation change of the Antarctic Ice Sheet: 1985 to 2020, Earth Syst. Sci. Data, 14, 3573–3598, https://doi.org/10.5194/essd-14-3573-2022, 2022. </p>
 
 
 

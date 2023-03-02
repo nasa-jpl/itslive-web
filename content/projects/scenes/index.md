@@ -13,7 +13,7 @@ Scene-pair velocities generated from satellite optical and radar imagery.
 - Date range: 1985-present
 - Resolution: 120 m
 - Image-pair separation: 6 to 546 days
-- Version 2 now available, Landsat only
+- Version 2 now available
 
 ---
 

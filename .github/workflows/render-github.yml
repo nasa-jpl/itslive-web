@@ -1,8 +1,5 @@
 
 on:
-  push:
-    branches:
-      - main  # Set a branch to deploy
   pull_request:
 
 jobs:
@@ -30,13 +27,13 @@ jobs:
       - name: install postcss
         run: npm i postcss postcss-cli autoprefixer
 
-      - name: Build for jpl
-        run: hugo --minify -b https://its-live.jpl.nasa.gov/ -d jpl
+      - name: Build
+        run: hugo --minify
 
-      - name: Deploy to jpl branch
+      - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
         if: ${{ github.ref == 'refs/heads/main' }}
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./jpl
-          publish_branch: jpl
+          publish_dir: ./public
+

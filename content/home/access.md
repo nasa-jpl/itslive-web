@@ -64,14 +64,19 @@ params = {
 velocity_pairs = requests.get(base_api, params=params)
 ```
 
-
 <br>
 
 > Note: Since April 2023, V1 data is hosted at NSIDC and its access requires authentication with NASA Earthdata Login (EDL).
-> Here are some resources to learn how to access data behind EDL:
+> Here are some resources to learn how to access data behind EDL.
 > * [NSIDC Programmatic Access Guide](https://nsidc.org/data/user-resources/help-center/programmatic-data-access-guide)
-> * [NASA's EDL User Knowledge Base](https://wiki.earthdata.nasa.gov/display/EL/EDL+User+Knowledge+Base)
-> * Or in Python we can use a library like [earthaccess](https://github.com/nsidc/earthaccess)
+> * [NASA's EDL User Knowledge Base](https://wiki.earthdata.nasa.gov/display/EL/EDL+User+Knowledge+Base
+> * Or in Python we can use a library like [earthaccess](https://github.com/nsidc/earthaccess>ii)
+> * Using commands like Curl or wget we need to add an EDL bearer token to our requests
+> ```bash
+> export EDL_TOKEN=YOUR_EDL_TOKEN
+> wget --header="Authorization: Bearer ${EDL_TOKEN}" $ITS_LIVE_URL
+> ```
+> EDL tokens can be generated in the [EDL token website](https://urs.earthdata.nasa.gov/home)
 </div>
 
 

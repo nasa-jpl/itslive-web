@@ -70,7 +70,7 @@ velocity_pairs = requests.get(base_api, params=params)
 > Here are some resources to learn how to access data behind EDL.
 > * [NSIDC Programmatic Access Guide](https://nsidc.org/data/user-resources/help-center/programmatic-data-access-guide)
 > * [NASA's EDL User Knowledge Base](https://wiki.earthdata.nasa.gov/display/EL/EDL+User+Knowledge+Base)
-> * Or in Python we can use a library like [earthaccess](https://github.com/nsidc/earthaccess>ii)
+> * Or in Python we can use a library like [earthaccess](https://github.com/nsidc/earthaccess)
 > * Using commands like Curl or wget we need to add an EDL bearer token to our requests
 > ```bash
 > export EDL_TOKEN=YOUR_EDL_TOKEN

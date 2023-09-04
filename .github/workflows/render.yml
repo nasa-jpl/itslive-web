@@ -28,6 +28,10 @@ jobs:
       - name: install postcss
         run: npm i postcss postcss-cli autoprefixer
 
+      - name: Build react app
+        working-directory: ./mappin-itslive-embed
+        run: npm install && npm run build
+
       - name: Build for jpl
         run: hugo --minify -b https://its-live.jpl.nasa.gov/ -d jpl
 

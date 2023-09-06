@@ -9,7 +9,7 @@ Satellite observations reveal how the world’s glaciers have responded to recen
 
 
 * Spatial coverage: Global
-* Temporal coverage: 1985 - present
+* Temporal coverage: 1985 - Present
 * Resolution: 120m
 * Frequency: Variable, Monthly, Annual
 * Formats: NetCDF, QGIS VRT, GeoTIFF, Zarr

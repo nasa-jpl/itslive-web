@@ -38,9 +38,17 @@
 
 .footer-text {
   text-indent: 3em;
+  flex-wrap: wrap;
 }
 
 .align-left {
   text-align: left !important;
 }
 
+.align-justify {
+  text-align: justify !important;
+}
+
+.m-1 {
+  margin: 1em;
+}

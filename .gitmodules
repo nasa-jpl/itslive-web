@@ -1,3 +1,6 @@
 [submodule "themes/introduction"]
 	path = themes/introduction
 	url = https://github.com/betolink/hugo-theme-introduction.git
+[submodule "mappin-itslive-embed"]
+	path = mappin-itslive-embed
+	url = https://github.com/fahnestockj/mappin-itslive-embed.git

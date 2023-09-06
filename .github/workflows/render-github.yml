@@ -26,6 +26,11 @@ jobs:
       - name: install postcss
         run: npm i postcss postcss-cli autoprefixer
 
+      - name: Build react app
+        working-directory: ./mappin-itslive-embed
+        run: npm install && npm run build
+
+
       - name: Build
         run: hugo --minify
 

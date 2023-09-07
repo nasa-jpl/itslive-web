@@ -1,5 +1,15 @@
 <div class="container">
+  {{ if eq hugo.Environment "development" }}
+  <!-- I render when in development -->
   <script type="module" src="/itslive-web/mappin-build/mappin-build.js"></script>
   <link rel="stylesheet" href="/itslive-web/mappin-build/mappin-build.css">
-  <div class="container"  id="mappin-embed"></div>
+  <div class="container" id="mappin-embed"></div>
+  {{ end }}
+
+  {{ if eq hugo.Environment "production" }}
+  <!-- I render when in production -->
+  <script type="module" src="/mappin-build/mappin-build.js"></script>
+  <link rel="stylesheet" href="/mappin-build/mappin-build.css">
+  <div class="container" id="mappin-embed"></div>
+  {{ end }}
 </div>

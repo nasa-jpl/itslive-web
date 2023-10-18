@@ -2,17 +2,13 @@
 title: "People"
 weight: 25
 ---
-
 #### Principal Investigator
-
 
 <img src="images/people/AlexGardner.jpg">
 Alex Gardner
 JPL, Caltech
 
 ---
-
-
 #### Co-Investigators
 
 <div class="columns">
@@ -25,33 +21,6 @@ JPL, Caltech
     <img src="images/people/TedScambos.jpg">
     Ted Scambos<br>
     ESOC, UCB
-  </div>
-  <div class="column">
-    <img src="images/people/PiyushAgram.jpg">
-    Piyush Agram<br>
-    Descartes Labs
-  </div>
-  <div class="column">
-    <img src="images/people/FranzMeyer.jpg">
-    Franz Meyer<br>
-    Geophysical Institute, UAF
-  </div>
-  <div class="column">
-    <img src="images/people/JohanNilsson.jpg">
-    Johan Nilsson<br>
-    JPL, Caltech
-  </div>
-</div>
-
-
----
-#### Researchers & Technologists
-
-<div class="columns">
-  <div class="column">
-    <img src="images/people/YangLei.jpg">
-    Yang Lei<br>
-    GPS, Caltech
   </div>
   <div class="column">
     <img src="images/people/ChadGreene.jpg">
@@ -73,6 +42,40 @@ JPL, Caltech
     Luis López<br>
     NSIDC
   </div>
+  <div class="column">
+    <img src="images/people/JohanNilsson.jpg">
+    Johan Nilsson<br>
+    JPL, Caltech
+  </div>
+</div>
+
+
+---
+#### Researchers & Technologists, Collaborators 
+
+<div class="columns">
+  <div class="column">
+    <img src="images/people/AlexGoodman.jpg">
+    Alex Goodman<br>
+    GPS, Caltech
+  </div>
+  <div class="column">
+    <img src="images/people/YangLei.jpg">
+    Yang Lei<br>
+    GPS, Caltech
+  </div>
+    <div class="column">
+    <img src="images/people/PiyushAgram.jpg">
+    Piyush Agram<br>
+    Descartes Labs
+  </div>
+  </div>
+    <div class="column">
+    <img src="images/people/DanielCheng.jpg">
+    Daniel Cheng<br>
+    JPL, Caltech
+  </div>
+  
 </div>
 
 
@@ -84,7 +87,6 @@ JPL, Caltech
     Amaury Dehecq<br>
     CNRS
   </div>
-
   <div class="column">
     <img src="images/people/FernandoPaolo.jpg">
     Fernando Paolo<br>
@@ -94,6 +96,11 @@ JPL, Caltech
     <img src="images/people/CatherineWalker.jpg">
     Catherine Walker<br>
     WHOI
+  </div>
+  <div class="column">
+    <img src="images/people/FranzMeyer.jpg">
+    Franz Meyer<br>
+    Geophysical Institute, UAF
   </div>
   <div class="column">
    <br>

@@ -64,7 +64,7 @@ JPL, Caltech
     Yang Lei<br>
     GPS, Caltech
   </div>
-    <div class="column">
+  <div class="column">
     <img src="images/people/PiyushAgram.jpg">
     Piyush Agram<br>
     Descartes Labs
@@ -84,7 +84,6 @@ JPL, Caltech
   <div class="column">
    <br>
   </div>
-  
 </div>
 
 ---

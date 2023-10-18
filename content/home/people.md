@@ -75,10 +75,19 @@ JPL, Caltech
     Daniel Cheng<br>
     JPL, Caltech
   </div>
+  <div class="column">
+   <br>
+  </div>
+  <div class="column">
+   <br>
+  </div>
+  <div class="column">
+   <br>
+  </div>
   
 </div>
 
-
+---
 #### Former Members
 
 <div class="columns">
@@ -108,8 +117,12 @@ JPL, Caltech
   <div class="column">
    <br>
   </div>
+  <div class="column">
+   <br>
+  </div>
 </div>
 
+---
 #### Advisory Board
 
 <div class="columns">
@@ -122,6 +135,12 @@ JPL, Caltech
     <img src="images/people/HamishPritchard.jpg">
     Hamish Pritchard<br>
     British Antarctic Survey
+  </div>
+  <div class="column">
+   <br>
+  </div>
+  <div class="column">
+   <br>
   </div>
   <div class="column">
    <br>

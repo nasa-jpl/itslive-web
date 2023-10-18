@@ -20,7 +20,7 @@ JPL, Caltech
   <div class="column">
     <img src="images/people/TedScambos.jpg">
     Ted Scambos<br>
-    ESOC, UCB
+    ESOC, CU Boulder
   </div>
   <div class="column">
     <img src="images/people/ChadGreene.jpg">
@@ -30,7 +30,7 @@ JPL, Caltech
   <div class="column">
     <img src="images/people/JoeKennedy.jpg">
     Joe Kennedy<br>
-    ASF
+    ASF, UAF
   </div>
   <div class="column">
     <img src="images/people/MariaLiukis.jpg">
@@ -40,7 +40,7 @@ JPL, Caltech
   <div class="column">
     <img src="images/people/LuisLopez.jpg">
     Luis López<br>
-    NSIDC
+    NSIDC, CU Boulder
   </div>
   <div class="column">
     <img src="images/people/JohanNilsson.jpg">
@@ -59,7 +59,7 @@ JPL, Caltech
   <div class="column">
     <img src="images/people/AlexGoodman.jpg">
     Alex Goodman<br>
-    GPS, Caltech
+    JPL, Caltech
   </div>
   <div class="column">
     <img src="images/people/YangLei.jpg">

@@ -50,9 +50,12 @@ JPL, Caltech
 </div>
 
 ---
-#### Researchers & Technologists, Collaborators 
+#### Researchers, Technologists, & Collaborators 
 
 <div class="columns">
+  <div class="column">
+   <br>
+  </div>
   <div class="column">
     <img src="images/people/AlexGoodman.jpg">
     Alex Goodman<br>
@@ -76,18 +79,15 @@ JPL, Caltech
   <div class="column">
    <br>
   </div>
-  <div class="column">
-   <br>
-  </div>
-  <div class="column">
-   <br>
-  </div>
 </div>
 
 ---
 #### Former Members
 
 <div class="columns">
+  <div class="column">
+   <br>
+  </div>
   <div class="column">
     <img src="images/people/AmauryDehecq.jpg">
     Amaury Dehecq<br>
@@ -111,18 +111,18 @@ JPL, Caltech
   <div class="column">
    <br>
   </div>
-  <div class="column">
-   <br>
-  </div>
-  <div class="column">
-   <br>
-  </div>
 </div>
 
 ---
 #### Advisory Board
 
 <div class="columns">
+  <div class="column">
+   <br>
+  </div>
+  <div class="column">
+   <br>
+  </div>
   <div class="column">
     <img src="images/people/NoelGourmelen.jpg">
     Noel Gourmelen<br>
@@ -132,15 +132,6 @@ JPL, Caltech
     <img src="images/people/HamishPritchard.jpg">
     Hamish Pritchard<br>
     British Antarctic Survey
-  </div>
-  <div class="column">
-   <br>
-  </div>
-  <div class="column">
-   <br>
-  </div>
-  <div class="column">
-   <br>
   </div>
   <div class="column">
    <br>

@@ -49,7 +49,6 @@ JPL, Caltech
   </div>
 </div>
 
-
 ---
 #### Researchers & Technologists, Collaborators 
 
@@ -69,8 +68,7 @@ JPL, Caltech
     Piyush Agram<br>
     Descartes Labs
   </div>
-  </div>
-    <div class="column">
+  <div class="column">
     <img src="images/people/DanielCheng.jpg">
     Daniel Cheng<br>
     JPL, Caltech

@@ -91,7 +91,7 @@ JPL, Caltech
   <div class="column">
     <img src="images/people/AmauryDehecq.jpg">
     Amaury Dehecq<br>
-    CNRS
+    IRD
   </div>
   <div class="column">
     <img src="images/people/FernandoPaolo.jpg">

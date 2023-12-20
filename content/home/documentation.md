@@ -22,7 +22,7 @@ Have any questions? Ask the ITS_LIVE community on [GITTER](https://gitter.im/its
 ### Open source tools
 
 <p><a href="https://github.com/leiyangleon/autoRIFT"> autoRIFT</a>:<i> A highly accurate and efficeint algorithm for finding the pixel displacement between two radar or optical images</i> </p>
-<p><a href="https://github.com/nsidc/NSIDC-Data-Tutorials/tree/itslive"> NSIDC notebook</a>:<i> A Jupyter notebook to search and download ITS_LIVE scene-pair velocity.</i> </p>
+<p><a href="https://github.com/nsidc/NSIDC-Data-Tutorials/blob/main/notebooks/itslive/itslive-notebook.ipynb"> NSIDC notebook</a>:<i> A Jupyter notebook to search and download ITS_LIVE scene-pair velocity.</i> </p>
 <p><a href="https://github.com/chadagreene/ITS_LIVE"> Chad Greene's Matlab collection</a>:<i> A set of Matlab functions for accessing, analyzing, and plotting ITS_LIVE velocity data. These functions are intended to streamline the process of loading ITS_LIVE mosaics, interpolating, generating flowlines, and creating maps of ice flow.</i> </p>
  <p><a href="https://staging.nsidc.org/apps/itslive-search/docs"> ITS_LIVE API</a>:<i> An API for searching ITS_LIVE scene-pair velocities.</i> </p>
 <p><a href="https://github.com/leiyangleon/Geogrid"> Geogrid</a>:<i> A Python module for precise mapping between (pixel index, pixel displacement) in imaging coordinates and (geolocation, motion velocity) in geographic Cartesian (northing/easting) coordinates</i> </p>

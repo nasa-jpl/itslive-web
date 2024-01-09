@@ -14,7 +14,3 @@ A NASA MEaSUREs project to provide automated, low latency, global glacier flow a
 
 <br>
 
-<mark>Notice: An in-progress migration will make data unavailable until Monday, January 8th. We Apologize for the inconvenience.</mark>
-
-
-

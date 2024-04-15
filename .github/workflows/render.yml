@@ -23,7 +23,7 @@ jobs:
       - name: Setup Node
         uses: actions/setup-node@v3
         with:
-          node-version: '14'
+          node-version: '18'
 
       - name: install postcss
         run: npm i postcss postcss-cli autoprefixer

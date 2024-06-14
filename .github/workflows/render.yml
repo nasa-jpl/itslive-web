@@ -28,8 +28,12 @@ jobs:
       - name: install postcss
         run: npm i postcss postcss-cli autoprefixer
 
-      - name: Build react app
+      - name: Build embedded react widget
         working-directory: ./mappin-itslive-embed
+        run: npm install && npm run build-prod
+
+      - name: Build react app
+        working-directory: ./mappin
         run: npm install && npm run build-prod
 
       - name: Build for jpl

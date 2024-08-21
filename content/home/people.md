@@ -50,7 +50,7 @@ JPL, Caltech
 </div>
 
 ---
-#### Researchers, Technologists, & Collaborators 
+#### Researchers, Technologists, Interns, & Collaborators 
 
 <div class="columns">
   <div class="column">
@@ -74,6 +74,11 @@ JPL, Caltech
   <div class="column">
     <img src="images/people/DanielCheng.jpg">
     Daniel Cheng<br>
+    JPL, Caltech
+  </div>
+    <div class="column">
+    <img src="images/people/AnshulSinghvi.jpg">
+    Anshul Singhvi<br>
     JPL, Caltech
   </div>
   <div class="column">

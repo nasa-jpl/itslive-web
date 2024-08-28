@@ -1,7 +1,8 @@
 baseURL                          = "https://nasa-jpl.github.io/itslive-web/"   # Your domain name. Must end with "/"
 theme                            = "introduction"
-DefaultContentLanguage           = "en"                    # Default language for multilingual sites
+defaultContentLanguage           = "en"                    # Default language for multilingual sites
 publishDir                       = "public"
+title                            = "ITS_LIVE a NASA MEaSURES program | NASA JPL"
 # googleAnalytics                 = ""                     # https://gohugo.io/templates/internal/#google-analytics
 
 

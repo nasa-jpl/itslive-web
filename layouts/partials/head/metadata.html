@@ -14,7 +14,7 @@
 {{ if .Site.Params.description }}
 <meta name="description" content="{{ .Site.Params.description }}">{{ end }}
 <title>
-  {{ .Title | humanize | title }}{{ if ne .Title .Site.Title }} - {{ .Site.Title | markdownify }}{{ end }}
+  {{ .Title | title }}{{ if ne .Title .Site.Title }} - {{ .Site.Title | markdownify }}{{ end }}
 </title>
 <!-- RSS -->
 {{ with .OutputFormats.Get "RSS" }}

@@ -10,7 +10,7 @@ Web app to explore and download annual velocity mosaics and image pair data.
 <div class="columns">
   <div class="column">
     <a href="https://nsidc.org/apps/itslive/" target="_blank" class="custom-image">
-      <img src="images/webapp.jpg" />
+      <img src="images/webapp.jpg" alt="Screen of the NSIDC data portal"/>
     </a>
   </div>
   <div class="column"></div>
@@ -26,9 +26,9 @@ Repository: [https://github.com/nasa-jpl/its_live](https://github.com/nasa-jpl/i
   <div class="column">
     <p>
     Click the binder link below to browse the data now <br><br>
-     <a href="https://itslive-dashboard.labs.nsidc.org/" target="_blank"><img src="https://img.shields.io/badge/Launch-Voilà-lightblue?atyle=plastic&logo=jupyter" class="custom-image"/></a><br>
-    <a href="https://mybinder.org/v2/gh/nasa-jpl/its_live/main?urlpath=lab/tree/notebooks" target="_blank"><img src="https://img.shields.io/badge/Launch-Binder-lightgreen?atyle=plastic&logo=jupyter" class="custom-image"/></a><br>
-  <a href="https://www.youtube.com/watch?v=G7E7rE5npvg" target="_blank"><img src="images/youtube-screen.jpg"></a>
+     <a href="https://itslive-dashboard.labs.nsidc.org/" target="_blank"><img src="https://img.shields.io/badge/Launch-Voilà-lightblue?atyle=plastic&logo=jupyter" class="custom-image" alt="Voila-based dashboard"/></a><br>
+    <a href="https://mybinder.org/v2/gh/nasa-jpl/its_live/main?urlpath=lab/tree/notebooks" target="_blank"><img src="https://img.shields.io/badge/Launch-Binder-lightgreen?atyle=plastic&logo=jupyter" class="custom-image" alt="MyBinder notebook"/></a><br>
+  <a href="https://www.youtube.com/watch?v=G7E7rE5npvg" target="_blank"><img src="images/youtube-screen.jpg" alt="Youtube tutorial"></a>
    </p>
   </div>
   <div class="column"></div>

@@ -18,3 +18,5 @@ hugo.linux
 # React app build files
 /static/mappin-build/
 /static/app/
+
+/.quarto/

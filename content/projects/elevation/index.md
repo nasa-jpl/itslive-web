@@ -1,6 +1,6 @@
 ---
-title: "Elevation Change"
-weight: 3
+title: "Antarctic Elevation Change (1985-2020)"
+weight: 2
 ---
 
 
@@ -15,4 +15,4 @@ Elevation change from multi altimetry mission synthesis.
 
 ---
 
-<button class="button is-large is-responsive"><a href="https://nsidc.org/data/nsidc-0782/versions/1">Get Data</a></button>
+<center><button class="button is-large is-responsive"><a href="https://nsidc.org/data/nsidc-0782"><h4>Get Data</h4></a></button></center>

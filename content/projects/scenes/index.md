@@ -1,5 +1,5 @@
 ---
-title: "Image-pair velocities"
+title: "Global Image-pair Velocities (1985-Present)"
 weight: 2
 resources:
     - src: scene.jpg
@@ -11,11 +11,15 @@ Scene-pair velocities generated from satellite optical and radar imagery.
 
 - Coverage: All land ice
 - Date range: 1985-present
-- Resolution: 120 m
-- Image-pair separation: 6 to 546 days
-- Version 2 now available
+- Temporal resolution: Variable, 6 to 546 days separation
+- Spatial resolution: 120 m
+- Spatial Reference System(s): WGS 84 / NSIDC Sea Ice Polar Stereographic North EPSG:3413
+- Spatial Coverage:  N:81.51, S:58.33, E:11.32, W:-94.4
 
 ---
 
-<button class="button is-large is-responsive"><a href="https://nsidc.org/apps/itslive/">Get Data</a></button>
+<center><button class="button is-large is-responsive"><a href="https://nsidc.org/apps/itslive/"><h4>Get Data</h4></a></button></center>
+
+
+
 

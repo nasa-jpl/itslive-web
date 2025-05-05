@@ -18,6 +18,10 @@ jobs:
       - name: Clean up old Hugo public folder
         run: rm -rf public
 
+      - name: Force update submodules
+        run: |
+          git submodule update --remote --merge
+
 
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v2
@@ -42,10 +46,11 @@ jobs:
         run: npm install && npm run build-dev
 
       - name: Build
-        run: hugo --minify -e production
+        run: hugo --minify -e development
 
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./public
 

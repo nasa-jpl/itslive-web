@@ -29,16 +29,19 @@ jobs:
       - name: install postcss
         run: npm i postcss postcss-cli autoprefixer
 
-      - name: Build react app
+      - name: Build embedded react widget
         working-directory: ./mappin-itslive-embed
-        run: npm install && npm run build-dev
+        run: npm install && npm run build-prod
+
+      - name: Build react app
+        working-directory: ./mappin
+        run: npm install && npm run build-prod
 
       - name: Build
-        run: hugo --minify -e development
+        run: hugo --minify -e production
 
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./public
 

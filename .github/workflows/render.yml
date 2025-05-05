@@ -11,14 +11,21 @@ jobs:
     steps:
       - uses: actions/checkout@v3
         with:
-          submodules: true
+          submodules: recursive
           fetch-depth: 0
+
+      - name: Force update submodules
+        run: |
+          git submodule update --remote --merge
 
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v2
         with:
           hugo-version: '0.147.0'
           extended: true
+
+      - name: Clean up old Hugo public folder
+        run: rm -rf jpl
 
       - name: Setup Node
         uses: actions/setup-node@v3

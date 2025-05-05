@@ -31,14 +31,14 @@ jobs:
 
       - name: Build embedded react widget
         working-directory: ./mappin-itslive-embed
-        run: npm install && npm run build-prod
+        run: npm install && npm run build-dev
 
       - name: Build react app
         working-directory: ./mappin
-        run: npm install && npm run build-prod
+        run: npm install && npm run build-dev
 
       - name: Build
-        run: hugo --minify -e production
+        run: hugo --minify -e development
 
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3

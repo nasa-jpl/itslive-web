@@ -6,4 +6,4 @@
 	url = https://github.com/fahnestockj/mappin-itslive-embed.git
 [submodule "mappin"]
 	path = mappin
-	url = https://github.com/fahnestockj/mappin
+	url = https://github.com/fahnestockj/mappin.git

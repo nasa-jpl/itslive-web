@@ -1,4 +1,62 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title/><link>https://nasa-jpl.github.io/itslive-web/</link><description>Recent content on</description><generator>Hugo -- gohugo.io</generator><atom:link href="https://nasa-jpl.github.io/itslive-web/index.xml" rel="self" type="application/rss+xml"/><item><title>Velocity Mosaics</title><link>https://nasa-jpl.github.io/itslive-web/projects/mosaics/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://nasa-jpl.github.io/itslive-web/projects/mosaics/</guid><description>Regional velocity mosaics created from the synthesis of all scene-pair velocities.
-Coverage: All major land ice Date range: 1985-present Resolution: 120 m Frequency: Monthly &amp;amp; Annual Available now, Beta (V01), Landsat only Get Data</description></item><item><title>Image-pair velocities</title><link>https://nasa-jpl.github.io/itslive-web/projects/scenes/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://nasa-jpl.github.io/itslive-web/projects/scenes/</guid><description>Scene-pair velocities generated from satellite optical and radar imagery.
-Coverage: All land ice Date range: 1985-present Resolution: 120 m Image-pair separation: 6 to 546 days Version 2 now available Get Data</description></item><item><title>Elevation Change</title><link>https://nasa-jpl.github.io/itslive-web/projects/elevation/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://nasa-jpl.github.io/itslive-web/projects/elevation/</guid><description>Elevation change from multi altimetry mission synthesis.
-Coverage: Ice sheets &amp;amp; ice shelves Date range: 1985-2020 Resolution: 1920 m Frequency: Monthly Antarctic grounded ice Ice Shelves &amp;amp; Greenland Summer 2024 Get Data</description></item><item><title>&lt;a href='https://www.jpl.nasa.gov'>&lt;img src='images/logo-jpl.png'/>&lt;/a> ITS_LIVE</title><link>https://nasa-jpl.github.io/itslive-web/home/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://nasa-jpl.github.io/itslive-web/home/</guid><description>A NASA MEaSUREs project to provide automated, low latency, global glacier flow and elevation change datasets.</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>ITS_LIVE a NASA MEaSURES program | NASA JPL</title><link>https://nasa-jpl.github.io/itslive-web/</link><description>Recent content on ITS_LIVE a NASA MEaSURES program | NASA JPL</description><generator>Hugo</generator><language>en</language><atom:link href="https://nasa-jpl.github.io/itslive-web/index.xml" rel="self" type="application/rss+xml"/><item><title>Regional Velocity Mosaics (1985-Present)</title><link>https://nasa-jpl.github.io/itslive-web/projects/mosaics/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://nasa-jpl.github.io/itslive-web/projects/mosaics/</guid><description>&lt;p>Regional velocity mosaics created from the synthesis of all scene-pair velocities.&lt;/p>
+&lt;ul>
+&lt;li>Coverage: All major land ice&lt;/li>
+&lt;li>Date range: 1985-present&lt;/li>
+&lt;li>Resolution: 120 m&lt;/li>
+&lt;li>Frequency: Monthly &amp;amp; Annual&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;center>&lt;button class="button is-large is-responsive">&lt;a href="https://nsidc.org/apps/itslive/">&lt;h4>Get Data&lt;/h4>&lt;/a>&lt;/button>&lt;/center></description></item><item><title>Antarctic Elevation Change (1985-2020)</title><link>https://nasa-jpl.github.io/itslive-web/projects/elevation/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://nasa-jpl.github.io/itslive-web/projects/elevation/</guid><description>&lt;p>Elevation change from multi altimetry mission synthesis.&lt;/p>
+&lt;ul>
+&lt;li>Coverage: Ice sheets &amp;amp; ice shelves&lt;/li>
+&lt;li>Date range: 1985-2020&lt;/li>
+&lt;li>Resolution: 1920 m&lt;/li>
+&lt;li>Frequency: Monthly&lt;/li>
+&lt;li>Antarctic grounded ice&lt;/li>
+&lt;li>Ice Shelves &amp;amp; Greenland Summer 2024&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;center>&lt;button class="button is-large is-responsive">&lt;a href="https://nsidc.org/data/nsidc-0782">&lt;h4>Get Data&lt;/h4>&lt;/a>&lt;/button>&lt;/center></description></item><item><title>Global Image-pair Velocities (1985-Present)</title><link>https://nasa-jpl.github.io/itslive-web/projects/scenes/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://nasa-jpl.github.io/itslive-web/projects/scenes/</guid><description>&lt;p>Scene-pair velocities generated from satellite optical and radar imagery.&lt;/p>
+&lt;ul>
+&lt;li>Coverage: All land ice&lt;/li>
+&lt;li>Date range: 1985-present&lt;/li>
+&lt;li>Temporal resolution: Variable, 6 to 546 days separation&lt;/li>
+&lt;li>Spatial resolution: 120 m&lt;/li>
+&lt;li>Spatial Reference System(s): WGS 84 / NSIDC Sea Ice Polar Stereographic North EPSG:3413&lt;/li>
+&lt;li>Spatial Coverage: N:81.51, S:58.33, E:11.32, W:-94.4&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;center>&lt;button class="button is-large is-responsive">&lt;a href="https://nsidc.org/apps/itslive/">&lt;h4>Get Data&lt;/h4>&lt;/a>&lt;/button>&lt;/center></description></item><item><title>Antarctic Annual Ice Sheet Extent Masks (1997-2021)</title><link>https://nasa-jpl.github.io/itslive-web/projects/antarctica_extents/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://nasa-jpl.github.io/itslive-web/projects/antarctica_extents/</guid><description>&lt;p>MEaSUREs ITS_LIVE Antarctic Annual 240 m Ice Sheet Extent Masks, 1997-2021, Version 1&lt;/p>
+&lt;ul>
+&lt;li>Coverage: Antarctica&lt;/li>
+&lt;li>Date range: October 1997 to March 2021&lt;/li>
+&lt;li>Temporal resolution: Yearly&lt;/li>
+&lt;li>Spatial resolution: 240m&lt;/li>
+&lt;li>Spatial Reference System(s): WGS 84 / Antarctic Polar Stereographic EPSG:3031&lt;/li>
+&lt;li>Spatial Coverage: N:-57.6, S:-90, E:180, W:-180&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;center>&lt;button class="button is-large is-responsive">&lt;a href="https://nsidc.org/data/nsidc-0794/">&lt;h4>Get Data&lt;/h4>&lt;/a>&lt;/button>&lt;/center></description></item><item><title>Antarctic Quarterly Ice Shelf Height Change and Basal Melt Rates (1992-2017)</title><link>https://nasa-jpl.github.io/itslive-web/projects/antarctica_basal/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://nasa-jpl.github.io/itslive-web/projects/antarctica_basal/</guid><description>&lt;p>MEaSUREs ITS_LIVE Antarctic Quarterly 1920 m Ice Shelf Height Change and Basal Melt Rates, 1992-2017, Version 1&lt;/p>
+&lt;ul>
+&lt;li>Coverage: Antarctica&lt;/li>
+&lt;li>Platform(s): CRYOSAT-2, ENVISAT, ERS-1, ERS-2&lt;/li>
+&lt;li>Date range: March 1992 to December 2017&lt;/li>
+&lt;li>Temporal resolution: 3 Month&lt;/li>
+&lt;li>Spatial resolution: 1920 m&lt;/li>
+&lt;li>Spatial Reference System(s): WGS 84 / Antarctic Polar Stereographic EPSG:3031&lt;/li>
+&lt;li>Spatial Coverage: N:-54, S:-90, E:180, W:-180&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;center>&lt;button class="button is-large is-responsive">&lt;a href="https://nsidc.org/data/nsidc-0792/">&lt;h4>Get Data&lt;/h4>&lt;/a>&lt;/button>&lt;/center></description></item><item><title>Greenland Monthly Ice Sheet Extent Masks (1972-Present)</title><link>https://nasa-jpl.github.io/itslive-web/projects/greenland/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://nasa-jpl.github.io/itslive-web/projects/greenland/</guid><description>&lt;p>MEaSUREs ITS_LIVE Greenland Monthly 120 m Ice Sheet Extent Masks, 1972-2022, Version 1&lt;/p>
+&lt;ul>
+&lt;li>Coverage: Greenland&lt;/li>
+&lt;li>Date range: 1972-present&lt;/li>
+&lt;li>Temporal resolution: Monthly&lt;/li>
+&lt;li>Spatial resolution: 120 m&lt;/li>
+&lt;li>Spatial Reference System(s): WGS 84 / NSIDC Sea Ice Polar Stereographic North EPSG:3413&lt;/li>
+&lt;li>Spatial Coverage: N:81.51, S:58.33, E:11.32, W:-94.4&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;center>&lt;button class="button is-large is-responsive">&lt;a href="https://nsidc.org/data/nsidc-0793/">&lt;h4>Get Data&lt;/h4>&lt;/a>&lt;/button>&lt;/center></description></item><item><title>&lt;a href='https://www.jpl.nasa.gov'>&lt;img src='images/logo-jpl.png'/>&lt;/a> ITS_LIVE</title><link>https://nasa-jpl.github.io/itslive-web/home/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://nasa-jpl.github.io/itslive-web/home/</guid><description>&lt;br>
+&lt;p>A NASA MEaSUREs project to provide automated, low latency, global glacier flow and elevation change datasets.&lt;/p>
+&lt;br></description></item></channel></rss>

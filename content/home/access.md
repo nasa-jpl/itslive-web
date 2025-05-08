@@ -5,7 +5,7 @@ weight: 20
 
 ### Data Portal
 
-Web app to explore and download annual velocity mosaics and image pair data.
+Web app to explore and download annual velocity mosaics and image pair data:
 
 <div class="columns">
   <div class="column">

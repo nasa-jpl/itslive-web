@@ -19,7 +19,12 @@ jobs:
       - name: Sync to S3
         uses: jakejarvis/s3-sync-action@master
         with:
-          args: --delete --exclude ".git/*" --exclude ".github/*"
+          args: >
+            --delete
+            --exclude ".git/*"
+            --exclude ".git/**"
+            --exclude ".github/*"
+            --exclude ".github/**"
         env:
           AWS_S3_BUCKET: ${{ secrets.S3_BUCKET }}
           AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}

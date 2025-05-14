@@ -20,5 +20,5 @@
 {{ with .OutputFormats.Get "RSS" }}
 <link href="{{ .RelPermalink }}" rel="alternate" type="application/rss+xml" title="{{ $.Site.Title }}" />{{ end }}
 <!-- Custom Head Content with Font CSP -->
-<meta http-equiv="Content-Security-Policy" content="default-src *; img-src * blob: data:; style-src 'self' 'unsafe-inline'; script-src 'self' 'unsafe-inline' 'unsafe-eval' https://its-live.jpl.nasa.gov https://dap.digitalgov.gov">
+<meta http-equiv="Content-Security-Policy" content="default-src *; img-src * blob: data:; style-src 'self' 'unsafe-inline' https://cdnjs.cloudflare.com; script-src 'self' 'unsafe-inline' 'unsafe-eval' https://its-live.jpl.nasa.gov https://dap.digitalgov.gov">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />

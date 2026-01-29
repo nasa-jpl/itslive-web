@@ -7,4 +7,3 @@
 [submodule "mappin"]
 	path = mappin
 	url = https://github.com/fahnestockj/mappin.git
-  branch = adding-netcdf-img

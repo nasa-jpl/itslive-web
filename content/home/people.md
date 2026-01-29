@@ -50,12 +50,9 @@ JPL, Caltech
 </div>
 
 ---
-#### Researchers, Technologists, Interns, & Collaborators 
+#### Researchers, Technologists, Interns, & Collaborators
 
 <div class="columns">
-  <div class="column">
-   <br>
-  </div>
   <div class="column">
     <img src="images/people/AlexGoodman.jpg" alt="Headshot photo of Alex Goodman">
     Alex Goodman<br>
@@ -76,13 +73,15 @@ JPL, Caltech
     Daniel Cheng<br>
     JPL, Caltech
   </div>
-    <div class="column">
-    <img src="images/people/AnshulSinghvi.jpg"  alt="Headshot photo of Anshul Singhvi">
+  <div class="column">
+    <img src="images/people/AnshulSinghvi.jpg" alt="Headshot photo of Anshul Singhvi">
     Anshul Singhvi<br>
     JPL, Caltech
   </div>
   <div class="column">
-   <br>
+    <img src="images/people/AndrewPlayer.jpg" alt="Headshot photo of Andrew Player">
+    Andrew Player<br>
+    ASF, UAF
   </div>
 </div>
 

@@ -30,6 +30,18 @@
   text-align: justify;
 }
 
+.section ul, .section ol, .section li {
+  text-align: left !important;
+}
+
+.details-title {
+  font-size: 1.5em;
+}
+
+.section img[alt*="Headshot"] {
+  width: 200px;
+}
+
 .custom-image {
   display: inline !important;
   text-align: left;

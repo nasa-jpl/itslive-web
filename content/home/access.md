@@ -49,9 +49,10 @@ search = catalog.search(
 for item in search.items():
     print(f"ID: {item.id}")
     print(f"Date: {item.properties['datetime']}")
-    print(f"Data URL: {item.assets['data'].href}")
+    print(f"Data URL (HTTPS): {item.assets['data'].href}")
     # Access S3 URL directly for cloud workflows
-    print(f"S3 URL: {item.assets['data'].alternate['s3'].href}")
+    s3_url = item.assets['data'].extra_fields['alternate']['s3']['href']
+    print(f"S3 URL: {s3_url}")
 ```
 
 </details>

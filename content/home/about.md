@@ -17,5 +17,5 @@ weight: 2
    </div>
 </div>
 
-<h2 class="m-1"> Instant Global Data Access </h2>
+<h2 class="m-1">Instant Global Data Access</h2>
 {{< mappin-embed >}}

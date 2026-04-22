@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Datasets on ITS_LIVE a NASA MEaSURES program | NASA JPL</title><link>https://its-live.jpl.nasa.gov/projects/</link><description>Recent content in Datasets on ITS_LIVE a NASA MEaSURES program | NASA JPL</description><generator>Hugo</generator><language>en</language><atom:link href="https://its-live.jpl.nasa.gov/projects/index.xml" rel="self" type="application/rss+xml"/><item><title>Regional Velocity Mosaics (1985-Present)</title><link>https://its-live.jpl.nasa.gov/projects/mosaics/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://its-live.jpl.nasa.gov/projects/mosaics/</guid><description>&lt;p>Regional velocity mosaics created from the synthesis of all scene-pair velocities.&lt;/p>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Datasets on ITS_LIVE a NASA MEaSURES program | NASA JPL</title><link>https://its-live.jpl.nasa.gov/projects/</link><description>Recent content in Datasets on ITS_LIVE a NASA MEaSURES program | NASA JPL</description><generator>Hugo</generator><language>en</language><atom:link href="https://its-live.jpl.nasa.gov/projects/index.xml" rel="self" type="application/rss+xml"/><item><title>Regional Velocity Mosaics (1985-Present)</title><link>https://its-live.jpl.nasa.gov/projects/global_mosaics/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://its-live.jpl.nasa.gov/projects/global_mosaics/</guid><description>&lt;p>Regional velocity mosaics created from the synthesis of all scene-pair velocities.&lt;/p>
 &lt;ul>
 &lt;li>Coverage: All major land ice&lt;/li>
 &lt;li>Date range: 1985-present&lt;/li>
@@ -6,7 +6,7 @@
 &lt;li>Frequency: Monthly &amp;amp; Annual&lt;/li>
 &lt;/ul>
 &lt;hr>
-&lt;center>&lt;button class="button is-large is-responsive">&lt;a href="https://nsidc.org/apps/itslive/">&lt;h4>Get Data&lt;/h4>&lt;/a>&lt;/button>&lt;/center></description></item><item><title>Antarctic Elevation Change (1985-2020)</title><link>https://its-live.jpl.nasa.gov/projects/elevation/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://its-live.jpl.nasa.gov/projects/elevation/</guid><description>&lt;p>Elevation change from multi altimetry mission synthesis.&lt;/p>
+&lt;center>&lt;button class="button is-large is-responsive">&lt;a href="https://nsidc.org/apps/itslive/">&lt;h4>Get Data&lt;/h4>&lt;/a>&lt;/button>&lt;/center></description></item><item><title>Antarctic Elevation Change (1985-2020)</title><link>https://its-live.jpl.nasa.gov/projects/antarctica_elevation/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://its-live.jpl.nasa.gov/projects/antarctica_elevation/</guid><description>&lt;p>Elevation change from multi altimetry mission synthesis.&lt;/p>
 &lt;ul>
 &lt;li>Coverage: Ice sheets &amp;amp; ice shelves&lt;/li>
 &lt;li>Date range: 1985-2020&lt;/li>
@@ -16,7 +16,17 @@
 &lt;li>Ice Shelves &amp;amp; Greenland Summer 2024&lt;/li>
 &lt;/ul>
 &lt;hr>
-&lt;center>&lt;button class="button is-large is-responsive">&lt;a href="https://nsidc.org/data/nsidc-0782">&lt;h4>Get Data&lt;/h4>&lt;/a>&lt;/button>&lt;/center></description></item><item><title>Global Image-pair Velocities (1985-Present)</title><link>https://its-live.jpl.nasa.gov/projects/scenes/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://its-live.jpl.nasa.gov/projects/scenes/</guid><description>&lt;p>Scene-pair velocities generated from satellite optical and radar imagery.&lt;/p>
+&lt;center>&lt;button class="button is-large is-responsive">&lt;a href="https://nsidc.org/data/nsidc-0782">&lt;h4>Get Data&lt;/h4>&lt;/a>&lt;/button>&lt;/center></description></item><item><title>Elevation change of the Greenland Ice Sheet and its peripheral glaciers: (1992–2023)</title><link>https://its-live.jpl.nasa.gov/projects/greenland_elevation/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://its-live.jpl.nasa.gov/projects/greenland_elevation/</guid><description>&lt;p>Elevation change of the Greenland Ice Sheet and its peripheral glaciers: (1992–2023)&lt;/p>
+&lt;ul>
+&lt;li>Coverage: Greenland&lt;/li>
+&lt;li>Date range: 1992-2023&lt;/li>
+&lt;li>Temporal resolution: Monthly&lt;/li>
+&lt;li>Spatial resolution: 1920 m&lt;/li>
+&lt;li>Spatial Reference System(s): WGS 84 / NSIDC Sea Ice Polar Stereographic North EPSG:3413&lt;/li>
+&lt;li>Spatial Coverage: N:81.51, S:58.33, E:11.32, W:-94.4&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;center>&lt;button class="button is-large is-responsive">&lt;a href="https://essd.copernicus.org/articles/18/1729/2026/">&lt;h4>Get Data&lt;/h4>&lt;/a>&lt;/button>&lt;/center></description></item><item><title>Global Image-pair Velocities (1985-Present)</title><link>https://its-live.jpl.nasa.gov/projects/global_velocity_granules/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://its-live.jpl.nasa.gov/projects/global_velocity_granules/</guid><description>&lt;p>Scene-pair velocities generated from satellite optical and radar imagery.&lt;/p>
 &lt;ul>
 &lt;li>Coverage: All land ice&lt;/li>
 &lt;li>Date range: 1985-present&lt;/li>
@@ -47,7 +57,7 @@
 &lt;li>Spatial Coverage: N:-54, S:-90, E:180, W:-180&lt;/li>
 &lt;/ul>
 &lt;hr>
-&lt;center>&lt;button class="button is-large is-responsive">&lt;a href="https://nsidc.org/data/nsidc-0792/">&lt;h4>Get Data&lt;/h4>&lt;/a>&lt;/button>&lt;/center></description></item><item><title>Greenland Monthly Ice Sheet Extent Masks (1972-Present)</title><link>https://its-live.jpl.nasa.gov/projects/greenland/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://its-live.jpl.nasa.gov/projects/greenland/</guid><description>&lt;p>MEaSUREs ITS_LIVE Greenland Monthly 120 m Ice Sheet Extent Masks, 1972-2022, Version 1&lt;/p>
+&lt;center>&lt;button class="button is-large is-responsive">&lt;a href="https://nsidc.org/data/nsidc-0792/">&lt;h4>Get Data&lt;/h4>&lt;/a>&lt;/button>&lt;/center></description></item><item><title>Greenland Monthly Ice Sheet Extent Masks (1972-Present)</title><link>https://its-live.jpl.nasa.gov/projects/greenland_extents/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://its-live.jpl.nasa.gov/projects/greenland_extents/</guid><description>&lt;p>MEaSUREs ITS_LIVE Greenland Monthly 120 m Ice Sheet Extent Masks, 1972-2022, Version 1&lt;/p>
 &lt;ul>
 &lt;li>Coverage: Greenland&lt;/li>
 &lt;li>Date range: 1972-present&lt;/li>

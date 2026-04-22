@@ -1,6 +1,10 @@
 ---
 title: "Antarctic Elevation Change (1985-2020)"
 weight: 2
+resources:
+    - src: antarctica_elevation.jpg
+      params:
+          weight: -100
 ---
 
 

@@ -1,6 +1,6 @@
 ---
 title: "Greenland Monthly Ice Sheet Extent Masks (1972-Present)"
-weight: 3
+weight: 70
 resources:
     - src: greene_greenland.jpg
       params:
@@ -19,4 +19,4 @@ MEaSUREs ITS_LIVE Greenland Monthly 120 m Ice Sheet Extent Masks, 1972-2022, Ver
 
 ---
 
-<center><button class="button is-large is-responsive"><a href="https://nsidc.org/data/nsidc-0793/"><h4>Get Data</h4></a></button></center>
+<p><a class="button is-large" href="https://nsidc.org/data/nsidc-0793/">Get Data</a></p>

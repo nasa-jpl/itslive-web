@@ -1,6 +1,6 @@
 ---
 title: "Antarctic Annual Ice Sheet Extent Masks (1997-2021)"
-weight: 3
+weight: 60
 resources:
     - src: greene_antarctica_masks.jpg
       params:
@@ -19,5 +19,5 @@ MEaSUREs ITS_LIVE Antarctic Annual 240 m Ice Sheet Extent Masks, 1997-2021, Vers
 
 ---
 
-<center><button class="button is-large is-responsive"><a href="https://nsidc.org/data/nsidc-0794/"><h4>Get Data</h4></a></button></center>
+<p><a class="button is-large" href="https://nsidc.org/data/nsidc-0794/">Get Data</a></p>
 

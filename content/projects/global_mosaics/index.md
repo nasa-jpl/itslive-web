@@ -1,6 +1,6 @@
 ---
 title: "Regional Velocity Mosaics  (1985-Present)"
-weight: 1
+weight: 10
 ---
 
 Regional velocity mosaics created from the synthesis of all scene-pair velocities.
@@ -12,5 +12,5 @@ Regional velocity mosaics created from the synthesis of all scene-pair velocitie
 
 ---
 
-<center><button class="button is-large is-responsive"><a href="https://nsidc.org/apps/itslive/"><h4>Get Data</h4></a></button></center>
+<p><a class="button is-large" href="https://nsidc.org/apps/itslive/">Get Data</a></p>
 

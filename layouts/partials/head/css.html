@@ -1,0 +1,42 @@
+{{ $lightRaw := resources.Get "sass/style.sass" | resources.ExecuteAsTemplate "css/main-light.tmp.css" (dict "Site" (dict "Params" (dict "themeStyle" "light"))) }}
+{{ $darkRaw := resources.Get "sass/style.sass" | resources.ExecuteAsTemplate "css/main-dark.tmp.css" (dict "Site" (dict "Params" (dict "themeStyle" "dark"))) }}
+
+{{ $light := "" }}
+{{ $dark := "" }}
+{{ if hugo.IsServer }}
+  {{ $light = $lightRaw | toCSS (dict "targetPath" "css/main-light.css" "enableSourceMap" true) }}
+  {{ $dark = $darkRaw | toCSS (dict "targetPath" "css/main-dark.css" "enableSourceMap" true) }}
+{{ else }}
+  {{ $postCSSOpts := (dict "use" "autoprefixer") }}
+  {{ $light = $lightRaw | toCSS (dict "targetPath" "css/main-light.css") | postCSS $postCSSOpts | minify | fingerprint }}
+  {{ $dark = $darkRaw | toCSS (dict "targetPath" "css/main-dark.css") | postCSS $postCSSOpts | minify | fingerprint }}
+{{ end }}
+
+<link id="theme-light" rel="stylesheet" href="{{ $light.RelPermalink }}"{{ with $light.Data.Integrity }} integrity="{{ . }}" crossorigin="anonymous"{{ end }} media="screen"{{ if ne site.Params.themeStyle "light" }} disabled{{ end }}>
+<link id="theme-dark" rel="stylesheet" href="{{ $dark.RelPermalink }}"{{ with $dark.Data.Integrity }} integrity="{{ . }}" crossorigin="anonymous"{{ end }} media="screen"{{ if ne site.Params.themeStyle "dark" }} disabled{{ end }}>
+
+<script>
+  (function () {
+    var fallback = '{{ site.Params.themeStyle | default "dark" }}';
+    if (fallback === 'auto') {
+      fallback = (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) ? 'dark' : 'light';
+    }
+    var theme = fallback;
+    try {
+      theme = localStorage.getItem('itslive-theme') || fallback;
+    } catch (e) {}
+    document.documentElement.setAttribute('data-theme', theme);
+    var light = document.getElementById('theme-light');
+    var dark = document.getElementById('theme-dark');
+    if (light && dark) {
+      light.disabled = theme !== 'light';
+      dark.disabled = theme !== 'dark';
+    }
+  })();
+</script>
+
+<!-- Custom css -->
+{{ range .Site.Params.customCSS -}}
+    {{ $style := resources.Get . }}
+    <link rel="stylesheet" href="{{ $style.RelPermalink }}" integrity="{{ $style.Data.Integrity }}" crossorigin="anonymous" media="screen">
+{{- end }}

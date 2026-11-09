@@ -1,6 +1,6 @@
 ---
 title: "Antarctic Quarterly Ice Shelf Height Change and Basal Melt Rates (1992-2017)"
-weight: 3
+weight: 50
 resources:
     - src: paolo_antarctica.png
       params:
@@ -20,5 +20,5 @@ MEaSUREs ITS_LIVE Antarctic Quarterly 1920 m Ice Shelf Height Change and Basal M
 
 ---
 
-<center><button class="button is-large is-responsive"><a href="https://nsidc.org/data/nsidc-0792/"><h4>Get Data</h4></a></button></center>
+<p><a class="button is-large" href="https://nsidc.org/data/nsidc-0792/">Get Data</a></p>
 

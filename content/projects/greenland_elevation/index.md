@@ -1,6 +1,6 @@
 ---
 title: "Elevation change of the Greenland Ice Sheet and its peripheral glaciers: (1992â€“2023)"
-weight: 2
+weight: 40
 resources:
     - src: greenland_elevation.jpg
       params:
@@ -19,4 +19,4 @@ Elevation change of the Greenland Ice Sheet and its peripheral glaciers: (1992â€
 
 ---
 
-<center><button class="button is-large is-responsive"><a href="https://essd.copernicus.org/articles/18/1729/2026/"><h4>Get Data</h4></a></button></center>
+<p><a class="button is-large" href="https://essd.copernicus.org/articles/18/1729/2026/">Get Data</a></p>

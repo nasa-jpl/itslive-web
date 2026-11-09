@@ -1,6 +1,6 @@
 ---
 title: "Antarctic Elevation Change (1985-2020)"
-weight: 2
+weight: 30
 resources:
     - src: antarctica_elevation.jpg
       params:
@@ -19,4 +19,4 @@ Elevation change from multi altimetry mission synthesis.
 
 ---
 
-<center><button class="button is-large is-responsive"><a href="https://nsidc.org/data/nsidc-0782"><h4>Get Data</h4></a></button></center>
+<p><a class="button is-large" href="https://nsidc.org/data/nsidc-0782">Get Data</a></p>

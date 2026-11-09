@@ -1,15 +1,41 @@
-<div class="container">
-  {{ if eq hugo.Environment "development" }}
-  <!-- I render when in development -->
-  <script type="module" src="/itslive-web/mappin-build/mappin-build.js"></script>
-  <link rel="stylesheet" href="/itslive-web/mappin-build/mappin-build.css">
+{{- $base := "/mappin-build/" -}}
+{{- if eq hugo.Environment "development" -}}{{- $base = "/itslive-web/mappin-build/" -}}{{- end -}}
+<div class="container mappin-embed-wrap" id="mappin-embed-wrap">
+  <link rel="stylesheet" href="{{ $base }}mappin-build.css">
+  <div class="mappin-placeholder" id="mappin-embed-placeholder" role="status" aria-live="polite">
+    <span>Loading the interactive velocity map…</span>
+  </div>
   <div class="container" id="mappin-embed"></div>
-  {{ end }}
-
-  {{ if eq hugo.Environment "production" }}
-  <!-- I render when in production -->
-  <script type="module" src="/mappin-build/mappin-build.js"></script>
-  <link rel="stylesheet" href="/mappin-build/mappin-build.css">
-  <div class="container" id="mappin-embed"></div>
-  {{ end }}
 </div>
+<script>
+  (function () {
+    var wrap = document.getElementById('mappin-embed-wrap');
+    if (!wrap) return;
+    var loaded = false;
+
+    function load() {
+      if (loaded) return;
+      loaded = true;
+      var script = document.createElement('script');
+      script.type = 'module';
+      script.src = '{{ $base }}mappin-build.js';
+      script.onload = function () {
+        var placeholder = document.getElementById('mappin-embed-placeholder');
+        if (placeholder) placeholder.remove();
+      };
+      document.body.appendChild(script);
+    }
+
+    if ('IntersectionObserver' in window) {
+      var observer = new IntersectionObserver(function (entries) {
+        if (entries[0].isIntersecting) {
+          observer.disconnect();
+          load();
+        }
+      }, { rootMargin: '400px' });
+      observer.observe(wrap);
+    } else {
+      load();
+    }
+  })();
+</script>

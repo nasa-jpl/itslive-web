@@ -1,6 +1,6 @@
 ---
 title: "Data Access"
-weight: 20
+weight: 30
 ---
 
 ### Data Portal
@@ -8,12 +8,11 @@ weight: 20
 Web app to explore and download annual velocity mosaics and image pair data:
 
 <div class="columns">
-  <div class="column">
-    <a href="https://nsidc.org/apps/itslive/" target="_blank" class="custom-image">
-      <img src="images/webapp.jpg" alt="Screen of the NSIDC data portal"/>
+  <div class="column is-two-thirds">
+    <a href="https://nsidc.org/apps/itslive/" target="_blank" rel="noopener" class="custom-image">
+      <img src="images/webapp.jpg" alt="Screenshot of the NSIDC ITS_LIVE data portal"/>
     </a>
   </div>
-  <div class="column"></div>
 </div>
 
 ### STAC API
@@ -83,7 +82,7 @@ for item in search.items():
 
 </details>
 
-<details open>
+<details>
 <summary class="details-title"><strong>Accessing Zarr Data Cubes</strong></summary>
 
 ```python
@@ -109,29 +108,6 @@ print(ds)
 > **Note**: For V1 data hosted at NSIDC (before April 2023), access requires authentication with NASA Earthdata Login (EDL). See:
 > * [NSIDC Programmatic Access Guide](https://nsidc.org/data/user-resources/help-center/programmatic-data-access-guide)
 > * [earthaccess library](https://github.com/nsidc/earthaccess) for EDL authentication in Python
-
-### Jupyter Notebooks
-
-<details>
-<summary class="details-title"><strong>Interactive Notebooks & Tutorials</strong></summary>
-
-Jupyter notebooks to access and visualize ice velocity time series from ITS_LIVE data cubes.
-
-Repository: [https://github.com/nasa-jpl/its_live](https://github.com/nasa-jpl/its_live)
-
-<div class="columns">
-  <div class="column">
-    <p>
-    Click the binder link below to browse the data now <br><br>
-     <a href="https://itslive-dashboard.labs.nsidc.org/" target="_blank"><img src="https://img.shields.io/badge/Launch-Voilà-lightblue?atyle=plastic&logo=jupyter" class="custom-image" alt="Voila-based dashboard"/></a><br>
-    <a href="https://mybinder.org/v2/gh/nasa-jpl/its_live/main?urlpath=lab/tree/notebooks" target="_blank"><img src="https://img.shields.io/badge/Launch-Binder-lightgreen?atyle=plastic&logo=jupyter" class="custom-image" alt="MyBinder notebook"/></a><br>
-  <a href="https://www.youtube.com/watch?v=G7E7rE5npvg" target="_blank"><img src="images/youtube-screen.jpg" alt="Youtube tutorial"></a>
-   </p>
-  </div>
-  <div class="column"></div>
-</div>
-
-</details>
 
 ### Data Cubes
 

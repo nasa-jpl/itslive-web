@@ -1,0 +1,5 @@
+<div class="person">
+  <img src="{{ .Get "img" | relURL }}" alt="Headshot photo of {{ .Get "name" }}">
+  <div class="name">{{ .Get "name" }}</div>
+  <div class="org">{{ .Get "org" }}</div>
+</div>

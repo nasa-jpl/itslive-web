@@ -1,6 +1,6 @@
 ---
 title: "Global Image-pair Velocities (1985-Present)"
-weight: 2
+weight: 20
 resources:
     - src: scene.jpg
       params:
@@ -18,7 +18,7 @@ Scene-pair velocities generated from satellite optical and radar imagery.
 
 ---
 
-<center><button class="button is-large is-responsive"><a href="https://nsidc.org/apps/itslive/"><h4>Get Data</h4></a></button></center>
+<p><a class="button is-large" href="https://nsidc.org/apps/itslive/">Get Data</a></p>
 
 
 

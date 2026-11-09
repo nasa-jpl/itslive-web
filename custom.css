@@ -1,3 +1,24 @@
+:root {
+  --itslive-strong: #ffffff;
+  --itslive-muted: #b8c2c8;
+  --itslive-surface: rgba(23, 23, 23, 0.96);
+  --itslive-border: rgba(128, 128, 128, 0.25);
+}
+
+html[data-theme="light"] {
+  --itslive-strong: #1a1a1a;
+  --itslive-muted: #4a4a4a;
+  --itslive-surface: rgba(255, 255, 255, 0.97);
+  --itslive-border: rgba(0, 0, 0, 0.15);
+}
+
+/* The hero uses a dark photo at all times, so its text stays light */
+section.hero .bold-title,
+section.hero .subtitle,
+section.hero .subtitle p {
+  color: #fff;
+}
+
 /* The hero image */
 .hero-body {
   /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
@@ -14,7 +35,7 @@
 }
 
 .hero-body img {
-  width: 400px;
+  width: min(400px, 80vw);
   position: relative;
   border: 0px !important;
   box-shadow: none !important;
@@ -22,24 +43,386 @@
   left: 0;
 }
 
-.section p {
-  text-align: justify;
+/* Body copy: left aligned and readable on dark backgrounds */
+.section p,
+.section li {
+  text-align: left;
+  line-height: 1.7;
 }
 
 .section h3 {
-  text-align: justify;
+  text-align: left;
 }
 
 .section ul, .section ol, .section li {
   text-align: left !important;
 }
 
-.details-title {
-  font-size: 1.5em;
+/* Keep long paragraphs from stretching across the full width */
+.section .markdown > p {
+  max-width: 78ch;
+  margin-left: 0;
+  margin-right: auto;
 }
 
-.section img[alt*="Headshot"] {
-  width: 200px;
+/* Left-align section titles to match the left-aligned body copy */
+.section > .container > h2.title {
+  text-align: left !important;
+  margin-bottom: 1.25rem;
+}
+
+/* Overview stats */
+.stats-list {
+  list-style: none;
+  margin: 1.25rem 0;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(170px, 1fr));
+  gap: 0.75rem 1.25rem;
+}
+
+.stats-list li {
+  display: flex;
+  flex-direction: column;
+  border-left: 2px solid rgba(128, 128, 128, 0.45);
+  padding-left: 0.75rem;
+}
+
+.stats-list strong {
+  font-size: 0.72rem;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  opacity: 0.65;
+}
+
+.stats-list span {
+  font-size: 1rem;
+}
+
+.section h3.map-heading {
+  margin-top: 2.5rem;
+  margin-bottom: 1rem;
+  text-align: left;
+}
+
+.questions-line {
+  font-size: 0.95rem;
+}
+
+/* Map placeholder shown while the widget bundle loads */
+.mappin-placeholder {
+  width: 100%;
+  max-width: 1000px;
+  min-height: 420px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid rgba(128, 128, 128, 0.3);
+  border-radius: 8px;
+  background: rgba(128, 128, 128, 0.08);
+}
+
+.mappin-placeholder span {
+  opacity: 0.7;
+  font-size: 0.95rem;
+}
+
+/* Accordions */
+details {
+  border: 1px solid rgba(128, 128, 128, 0.3);
+  border-radius: 8px;
+  padding: 0.65rem 1rem;
+  margin: 0.75rem 0;
+  background: rgba(128, 128, 128, 0.05);
+}
+
+details[open] {
+  background: rgba(128, 128, 128, 0.09);
+}
+
+summary.details-title {
+  font-size: 1.1em;
+  cursor: pointer;
+}
+
+details > summary {
+  list-style: none;
+}
+
+details > summary::-webkit-details-marker {
+  display: none;
+}
+
+details > summary::after {
+  content: "+";
+  float: right;
+  font-size: 1.25rem;
+  line-height: 1;
+  opacity: 0.7;
+}
+
+details[open] > summary::after {
+  content: "−";
+}
+
+/* Project cards (now links) */
+.project-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 2rem 1.5rem;
+  align-items: stretch;
+}
+
+.project-grid.two-cols {
+  grid-template-columns: repeat(auto-fit, minmax(380px, 1fr));
+}
+
+.project-card {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  color: inherit;
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
+}
+
+.project-card:hover,
+.project-card:focus {
+  color: inherit;
+  text-decoration: none;
+  transform: translateY(-3px);
+  box-shadow: 0 10px 24px rgba(0, 0, 0, 0.35);
+}
+
+.project-card h3 {
+  color: var(--itslive-strong);
+  font-size: 1.2rem;
+  font-weight: 600;
+  line-height: 1.35;
+  text-align: center;
+}
+
+.project-card .card-content {
+  text-align: center;
+  color: var(--itslive-strong);
+}
+
+/* Documentation cards */
+.doc-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1rem;
+  margin: 1.25rem 0 2rem;
+  text-align: left;
+}
+
+.doc-card {
+  display: block;
+  padding: 1rem 1.25rem;
+  border: 1px solid rgba(128, 128, 128, 0.3);
+  border-radius: 8px;
+  color: inherit;
+  transition: transform 0.15s ease, border-color 0.15s ease;
+}
+
+.doc-card:hover,
+.doc-card:focus {
+  color: inherit;
+  text-decoration: none;
+  border-color: #4aa3df;
+  transform: translateY(-2px);
+}
+
+.doc-card h4 {
+  margin: 0 0 0.4rem;
+  font-size: 1.05rem;
+  color: var(--itslive-strong);
+  font-weight: 600;
+}
+
+.doc-card p {
+  margin: 0;
+  font-size: 0.9rem;
+  opacity: 0.85;
+  line-height: 1.5;
+}
+
+.cite-box {
+  border-left: 3px solid #4aa3df;
+  border-radius: 0 8px 8px 0;
+  background: rgba(74, 163, 223, 0.08);
+  padding: 1rem 1.25rem;
+  margin-bottom: 1.5rem;
+  text-align: left;
+}
+
+.data-credits p {
+  font-size: 0.9rem;
+  opacity: 0.8;
+}
+
+/* People grid */
+.people-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1.5rem 1.25rem;
+  margin: 1rem 0 2rem;
+}
+
+.person {
+  width: 160px;
+  text-align: center;
+}
+
+.person img {
+  display: block;
+  width: 160px;
+  height: 160px;
+  object-fit: cover;
+  margin: 0 auto 0.5rem;
+  border: 0;
+  box-shadow: none;
+}
+
+.person .name {
+  font-weight: 600;
+  line-height: 1.3;
+}
+
+.person .org {
+  font-size: 0.85rem;
+  opacity: 0.7;
+}
+
+/* The theme only imports part of Bulma, so .button has no styles of its own */
+.button {
+  display: inline-block;
+  padding: 0.65rem 1.4rem;
+  border: 0;
+  border-radius: 4px;
+  background: #4aa3df;
+  color: #fff;
+  font-weight: 600;
+  line-height: 1.2;
+  text-decoration: none;
+  transition: background 0.15s ease;
+}
+
+.markdown a.button,
+.markdown a.button:hover {
+  color: #fff;
+  text-decoration: none;
+}
+
+.button:hover {
+  background: #3b8ec4;
+}
+
+.button.is-large {
+  padding: 0.85rem 1.75rem;
+  font-size: 1.1rem;
+}
+
+/* Active nav item (scroll spy) */
+.navbar-item.is-current {
+  color: var(--itslive-strong) !important;
+  box-shadow: inset 0 -2px 0 #4aa3df;
+}
+
+.navbar-item:hover {
+  color: var(--itslive-strong) !important;
+}
+
+/* Light/dark toggle */
+.theme-toggle {
+  cursor: pointer;
+}
+
+.theme-toggle .theme-icon-light {
+  display: none;
+}
+
+html[data-theme="light"] .theme-toggle .theme-icon-light {
+  display: inline-block;
+}
+
+html[data-theme="light"] .theme-toggle .theme-icon-dark {
+  display: none;
+}
+
+/* Compact sticky bar shown after the hero */
+.sticky-nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 100;
+  background: var(--itslive-surface);
+  border-bottom: 1px solid var(--itslive-border);
+  transform: translateY(-105%);
+  transition: transform 0.2s ease;
+}
+
+.sticky-nav.is-visible {
+  transform: translateY(0);
+}
+
+.sticky-nav-inner {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+  max-width: 1152px;
+  margin: 0 auto;
+  padding: 0.65rem 1.5rem;
+  font-size: 0.8rem;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+.sticky-nav-inner .navbar-item {
+  padding: 0.25rem 0;
+  box-shadow: none;
+  color: var(--itslive-muted);
+}
+
+.sticky-nav-inner .navbar-item:hover,
+.sticky-nav-inner .navbar-item.is-current {
+  color: var(--itslive-strong) !important;
+}
+
+.sticky-brand {
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  margin-right: auto;
+  color: var(--itslive-strong);
+}
+
+.sticky-brand:hover {
+  color: var(--itslive-strong);
+}
+
+.sticky-cta {
+  margin-left: auto;
+  padding: 0.35rem 0.9rem;
+  font-size: 0.78rem;
+  text-transform: none;
+  letter-spacing: normal;
+}
+
+/* Keep anchor targets clear of the sticky bar */
+.section {
+  scroll-margin-top: 72px;
+}
+
+@media (max-width: 900px) {
+  .sticky-nav {
+    display: none;
+  }
+}
+
+.details-title {
+  font-size: 1.5em;
 }
 
 .custom-image {
@@ -65,13 +448,16 @@
   margin: 1em;
 }
 
+/* Fonts are served from the site root, so keep these paths relative to the
+   stylesheet instead of absolute (they break when the site is hosted under a
+   sub-path). */
 @font-face {
   font-family: "Font Awesome 6 Brands";
   font-style: normal;
   font-weight: 400;
   font-display: block;
-  src: url("/fonts/fontawesome-free/webfonts/fa-brands-400.woff2") format("woff2"),
-       url("/fonts/fontawesome-free/webfonts/fa-brands-400.ttf") format("truetype");
+  src: url("fonts/fontawesome-free/webfonts/fa-brands-400.woff2") format("woff2"),
+       url("fonts/fontawesome-free/webfonts/fa-brands-400.ttf") format("truetype");
 }
 
 @font-face {
@@ -79,6 +465,6 @@
   font-style: normal;
   font-weight: 900;
   font-display: block;
-  src: url("/fonts/fontawesome-free/webfonts/fa-solid-900.woff2") format("woff2"),
-       url("/fonts/fontawesome-free/webfonts/fa-solid-900.ttf") format("truetype");
+  src: url("fonts/fontawesome-free/webfonts/fa-solid-900.woff2") format("woff2"),
+       url("fonts/fontawesome-free/webfonts/fa-solid-900.ttf") format("truetype");
 }

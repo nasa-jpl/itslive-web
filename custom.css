@@ -357,7 +357,8 @@ html[data-theme="light"] .theme-toggle .theme-icon-dark {
   top: 0;
   left: 0;
   right: 0;
-  z-index: 100;
+  /* Above Leaflet's map panes (400) and controls (1000) */
+  z-index: 2000;
   background: var(--itslive-surface);
   border-bottom: 1px solid var(--itslive-border);
   transform: translateY(-105%);
